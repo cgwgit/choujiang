@@ -19,11 +19,7 @@ return array(
      //"appid" => 'wx2ceec07b58f9bddc',
      //"mchid" => '1432685802',
      //"key" => '483a7b92d286d87b8b622b0285b38d1f',
-     'secret' => '5d589955487c40d34e7a113643f95426',
-     "appid" => 'wxbf62c184cea7890c',
-     "mchid" => '1390091802',
-     "key" => 'shangruweilai8888888888888888886',
-    'redirect_uri' => 'http://166xj71935.51mypc.cn/index.php/Home/Index/index',
+
     //设置跟踪日志(以便查看function.php文件是否被引入)
     'TMPL_L_DELIM'          =>  '<{',            // 模板引擎普通标签开始标记  
     'TMPL_R_DELIM'          =>  '}>',            // 模板引擎普通标签结束标记  
