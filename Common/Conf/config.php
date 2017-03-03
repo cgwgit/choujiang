@@ -14,13 +14,7 @@ return array(
     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
          //微信授权登录配置信息
-    //'secret' => '608566b91ce68b2281a69c200698f176',
-     //微信支付配置信息
-     //"appid" => 'wx2ceec07b58f9bddc',
-     //"mchid" => '1432685802',
-     //"key" => '483a7b92d286d87b8b622b0285b38d1f',
-
-    //设置跟踪日志(以便查看function.php文件是否被引入)
+ 
     'TMPL_L_DELIM'          =>  '<{',            // 模板引擎普通标签开始标记  
     'TMPL_R_DELIM'          =>  '}>',            // 模板引擎普通标签结束标记  
 );
