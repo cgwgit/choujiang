@@ -1,0 +1,5 @@
+全局消息钩子是一种通过挂钩Windows消息传递，进而注入DLL的方式，通常被用来截获Windows消息处理达到特殊的目的。允许全局消息钩子注入可能导致系统不稳定或被木马入侵。
+
+风险程序：   F:\软件\SublimeText3_1_2016ha\plugin_host.exe
+
+目标文件：F:\软件\SublimeText3_1_2016ha\Data\Packages\IMESupport\imesupport_hook_x86.dll

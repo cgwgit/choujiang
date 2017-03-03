@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>个人中心</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/public.css" />
+	</head>
+	<body>
+		<section class="section">
+			<div class="box-memberCenter">
+				<div class="leftImg">
+					<img src="<?php echo $member['0']['picture'] ?>" width="80px" height="80px" />
+				</div>
+				<div class="rightContent">
+					<div class="name">
+						<?php echo $member['0']['cname'] ?>
+					</div>
+				</div>
+			</div>
+			<div class="gray-box">
+
+			</div>
+			<div class="box-memeberActivity">
+				<div class="ma-title">
+					<span>参与活动</span>
+				</div>
+				<div class="m-activityLists">
+				<foreach name="member" item="v">
+					<div class="item-activity">
+						<div class="a-title">
+							<?php echo $v['title'] ?>
+						</div>
+						
+						<div class="left">
+							<div class="activity-title">
+								幸运号码：<?php echo $v['number'] ?>
+							</div>
+						<if condition="$v['status'] == 1" >
+							<div class="activity-number">
+								活动进行中
+							</div>
+						<else />
+						    <div class="activity-number2">
+								活动已结束
+							</div>
+							</if>
+						</div>
+						<div class="right">
+							<div class="acticity-money">
+								￥<?php echo $v['money'] ?>
+							</div>
+							<div class="acticity-time">
+								<?php echo date('Y-m-d',$v['ctime']) ?>
+							</div>
+						</div>
+						<div class="clear">
+						</div>
+					</div>
+				</foreach>
+				</div>
+			</div>
+		</section>
+	</body>
+
+</html>

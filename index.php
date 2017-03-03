@@ -1,0 +1,8 @@
+<?php
+header("content-type:text/html;charset =utf-8");
+//方便插件文件引入
+define('APP_DEBUG',true); 
+define('TOKEN', 'choujiang');
+define('BASE_PATH','/ThinkPHP/Library/Vendor');
+//引入tp框架的接口文件
+include("./ThinkPHP/ThinkPHP.php");  

@@ -1,0 +1,148 @@
+[ 2017-03-03T09:57:24+08:00 ] 192.168.20.14 /index.php/Home/Index/index/id/4018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-03-03T09:57:27+08:00 ] 192.168.20.14 /index.php/Home/Index/redirects?code=051Cpose09V4ox15UWqe0Xoise0CposK&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-03-03T09:57:29+08:00 ] 192.168.20.14 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: id E:\choujiang\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `tp_action` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_action` WHERE `status` = '1' AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_cinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_cinfo` INNER JOIN tp_action on tp_cinfo.aid=tp_action.id  WHERE `openid` = 'oeKRRwGe7RKOFsawhfmUz7CqhbH0' AND `status` = 1 AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: member_id E:\choujiang\Common\Common\function.php 第 7 行.
+NOTIC: [2] fopen(../logs/2017-03-03.log) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory E:\choujiang\ThinkPHP\Library\Vendor\wx\example\log.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: ycan E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 37 行.
+NOTIC: [8] Undefined variable: maxperson E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-03-03T09:57:49+08:00 ] 192.168.20.14 /index.php/Home/Index/index/id/4018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_action` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_action` WHERE `status` = '1' AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_cinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_cinfo` INNER JOIN tp_action on tp_cinfo.aid=tp_action.id  WHERE `openid` = 'oeKRRwGe7RKOFsawhfmUz7CqhbH0' AND `status` = 1 AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: member_id E:\choujiang\Common\Common\function.php 第 7 行.
+NOTIC: [2] fopen(../logs/2017-03-03.log) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory E:\choujiang\ThinkPHP\Library\Vendor\wx\example\log.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: ycan E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 37 行.
+NOTIC: [8] Undefined variable: maxperson E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-03-03T09:57:58+08:00 ] 192.168.20.14 /index.php/Home/Index/index/id/4018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tp_action` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_action` WHERE `status` = '1' AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_cinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_cinfo` INNER JOIN tp_action on tp_cinfo.aid=tp_action.id  WHERE `openid` = 'oeKRRwGe7RKOFsawhfmUz7CqhbH0' AND `status` = 1 AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: member_id E:\choujiang\Common\Common\function.php 第 7 行.
+NOTIC: [2] fopen(../logs/2017-03-03.log) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory E:\choujiang\ThinkPHP\Library\Vendor\wx\example\log.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: ycan E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 37 行.
+NOTIC: [8] Undefined variable: maxperson E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-03-03T09:58:12+08:00 ] 192.168.20.14 /index.php/Home/Index/index/id/4018?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-03-03T09:58:16+08:00 ] 192.168.20.14 /index.php/Home/Index/redirects?code=041lWGP11dQezL1eFHO11ShMP11lWGPM&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-03T09:58:18+08:00 ] 192.168.20.14 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: id E:\choujiang\Home\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `tp_action` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_action` WHERE `status` = '1' AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_cinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_cinfo` INNER JOIN tp_action on tp_cinfo.aid=tp_action.id  WHERE `openid` = 'oeKRRwDMYaWKn3GWzyicXSftYdkg' AND `status` = 1 AND `dizhi` = '4018' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: jsApiParameters E:\choujiang\Runtime\Cache\Home\52c74eff6e2e00f7fc68a0fda07c4ef2.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-03-03T09:58:21+08:00 ] 192.168.20.14 /index.php/Home/Index/index/id/4018?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
